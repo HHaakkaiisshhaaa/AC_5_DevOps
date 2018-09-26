@@ -1,13 +1,15 @@
-def fibo(n):
-   if n < 2:
-      return n
-   else:
-      return fibo(n-1) + fibo(n-2)
-      
-def test_ac05_01():
-    assert fibo(3) == 2     
-def test_ac05_02():
-    assert fibo(3) == 100  
-    
-def test_ac05_03():
-    assert fibo(3) == 20000  
+def termial (n):
+    if n == 0:
+        return 0
+    else: 
+        return n + termial(n - 1)
+
+def test_1():
+    assert termial (5) == 15
+
+
+   
+  
+
+
+
