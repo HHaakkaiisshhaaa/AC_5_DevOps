@@ -7,6 +7,9 @@ def termial (n):
 def test_1():
     assert termial (5) == 15
 
+def test_2():
+    assert termial (5) == 16   
+
 
    
   
